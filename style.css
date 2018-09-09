@@ -30,8 +30,7 @@
 }
 
 .about {
-  display: flex;
-  flex-direction: column;
+  flex-direction: row;  
   padding-top: 5%;
 }
 
@@ -49,3 +48,14 @@
   padding-bottom: 5%;
 }
 
+#profile-pic {
+  float: left;
+  border-radius: 50%;
+  height: 150px;
+  margin: 2%;
+}
+
+.about-text {
+  display: inline;
+
+}
