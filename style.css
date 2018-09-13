@@ -59,3 +59,23 @@
   display: inline;
 
 }
+
+.card:hover .text-overlay {
+  display: flex;
+  opacity: 0.9;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.text-overlay {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  height: 100%;
+  opacity: 0;
+	transition: opacity 0.5s ease-in-out;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+}
